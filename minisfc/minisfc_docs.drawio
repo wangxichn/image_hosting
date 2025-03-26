@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0" version="26.1.2" pages="4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0" version="26.1.2" pages="5">
   <diagram id="RkSEijH2GLAnucxZDBNG" name="framework">
     <mxGraphModel dx="1783" dy="1036" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -2531,6 +2531,95 @@
         </mxCell>
         <mxCell id="epkZkVe8JOA03UbDLvI3-12" value="&lt;div&gt;开始仿真&lt;/div&gt;&lt;div&gt;Start&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="640" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="container_workflow" id="DnqNFDD6CcT1s8ol_5pf">
+    <mxGraphModel dx="989" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="ndJvphUDp0UNZ26URuob-0" />
+        <mxCell id="ndJvphUDp0UNZ26URuob-1" parent="ndJvphUDp0UNZ26URuob-0" />
+        <mxCell id="ndJvphUDp0UNZ26URuob-2" value="&lt;div&gt;步骤一：定义基底网络拓扑&lt;/div&gt;&lt;div&gt;Step1: Define substrate topologies&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ndJvphUDp0UNZ26URuob-1">
+          <mxGeometry x="40" y="270" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ndJvphUDp0UNZ26URuob-3" value="&lt;div&gt;步骤二：定义VNF管理器&lt;/div&gt;&lt;div&gt;Step2: Define VNF manager&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ndJvphUDp0UNZ26URuob-1">
+          <mxGeometry x="280" y="270" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ndJvphUDp0UNZ26URuob-4" value="&lt;div&gt;&lt;div&gt;步骤三：定义SFC拓扑&lt;/div&gt;&lt;div&gt;Step3: Define SFC topologies&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ndJvphUDp0UNZ26URuob-1">
+          <mxGeometry x="520" y="270" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ndJvphUDp0UNZ26URuob-5" value="&lt;div&gt;步骤五：定义SFC部署求解器&lt;/div&gt;&lt;div&gt;Step5: Define SFC solver&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ndJvphUDp0UNZ26URuob-1">
+          <mxGeometry x="280" y="390" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ndJvphUDp0UNZ26URuob-6" value="&lt;div&gt;步骤六：定义MiniSFC仿真&lt;/div&gt;&lt;div&gt;Step6: Define MiniSFC simulation&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ndJvphUDp0UNZ26URuob-1">
+          <mxGeometry x="520" y="390" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ndJvphUDp0UNZ26URuob-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ndJvphUDp0UNZ26URuob-1" source="ndJvphUDp0UNZ26URuob-2" target="ndJvphUDp0UNZ26URuob-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="410" as="sourcePoint" />
+            <mxPoint x="440" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndJvphUDp0UNZ26URuob-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ndJvphUDp0UNZ26URuob-1" source="ndJvphUDp0UNZ26URuob-3" target="ndJvphUDp0UNZ26URuob-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="360" as="sourcePoint" />
+            <mxPoint x="540" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndJvphUDp0UNZ26URuob-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ndJvphUDp0UNZ26URuob-1" source="ndJvphUDp0UNZ26URuob-4" target="XFNNiOZ1LhGckImn8Uxw-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="325" as="sourcePoint" />
+            <mxPoint x="10" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="730" y="305" />
+              <mxPoint x="730" y="365" />
+              <mxPoint x="20" y="365" />
+              <mxPoint x="20" y="425" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndJvphUDp0UNZ26URuob-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ndJvphUDp0UNZ26URuob-1" source="ndJvphUDp0UNZ26URuob-5" target="ndJvphUDp0UNZ26URuob-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="510" as="sourcePoint" />
+            <mxPoint x="540" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndJvphUDp0UNZ26URuob-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="ndJvphUDp0UNZ26URuob-1" source="ndJvphUDp0UNZ26URuob-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="424.71" as="sourcePoint" />
+            <mxPoint x="750" y="425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndJvphUDp0UNZ26URuob-12" value="&lt;div&gt;开始仿真&lt;/div&gt;&lt;div&gt;Start&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ndJvphUDp0UNZ26URuob-1">
+          <mxGeometry x="760" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XFNNiOZ1LhGckImn8Uxw-0" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.05555555555555555;arcSize=7;" vertex="1" parent="ndJvphUDp0UNZ26URuob-1">
+          <mxGeometry x="240" y="189" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XFNNiOZ1LhGckImn8Uxw-2" value="&lt;div&gt;准备部署VNF所需的镜像&lt;/div&gt;&lt;div&gt;Prepare the images required to deploy VNF&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ndJvphUDp0UNZ26URuob-1">
+          <mxGeometry x="250" y="199" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XFNNiOZ1LhGckImn8Uxw-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ndJvphUDp0UNZ26URuob-1" source="XFNNiOZ1LhGckImn8Uxw-0" target="ndJvphUDp0UNZ26URuob-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="380" as="sourcePoint" />
+            <mxPoint x="490" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XFNNiOZ1LhGckImn8Uxw-4" value="&lt;div&gt;步骤四：定义UE部署求解器&lt;/div&gt;&lt;div&gt;Step4: Define UE manager&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ndJvphUDp0UNZ26URuob-1">
+          <mxGeometry x="40" y="390" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XFNNiOZ1LhGckImn8Uxw-5" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.05555555555555555;arcSize=7;" vertex="1" parent="ndJvphUDp0UNZ26URuob-1">
+          <mxGeometry y="480" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XFNNiOZ1LhGckImn8Uxw-6" value="&lt;div&gt;准备部署UE所需的镜像&lt;/div&gt;&lt;div&gt;Prepare the images required to deploy UE&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ndJvphUDp0UNZ26URuob-1">
+          <mxGeometry x="10" y="492" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XFNNiOZ1LhGckImn8Uxw-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="ndJvphUDp0UNZ26URuob-1" source="XFNNiOZ1LhGckImn8Uxw-5" target="XFNNiOZ1LhGckImn8Uxw-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="580" as="sourcePoint" />
+            <mxPoint x="60" y="620" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
